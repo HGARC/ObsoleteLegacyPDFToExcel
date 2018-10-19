@@ -1,0 +1,92 @@
+package com.apache.test;
+
+public class Book {
+	private String collectionName;
+	private String accessionDate;
+	private String collectionCode;
+	private String series;
+	private String subSeries;
+	private String medium;
+	private String form;
+	private String heading;
+	private String beginDate;
+	private String endDate;
+	private String dateExpression;
+	private String description;
+	public String getCollectionName() {
+		return collectionName;
+	}
+	public void setCollectionName(String collectionName) {
+		this.collectionName = collectionName;
+	}
+	public String getAccessionDate() {
+		return accessionDate;
+	}
+	public void setAccessionDate(String accessionDate) {
+		this.accessionDate = accessionDate;
+	}
+	public String getCollectionCode() {
+		return collectionCode;
+	}
+	public void setCollectionCode(String collectionCode) {
+		this.collectionCode = collectionCode;
+	}
+	public String getSeries() {
+		return series;
+	}
+	public void setSeries(String series) {
+		this.series = series;
+	}
+	public String getSubSeries() {
+		return subSeries;
+	}
+	public void setSubSeries(String subSeries) {
+		this.subSeries = subSeries;
+	}
+	public String getMedium() {
+		return medium;
+	}
+	public void setMedium(String medium) {
+		this.medium = medium;
+	}
+	public String getForm() {
+		return form;
+	}
+	public void setForm(String form) {
+		this.form = form;
+	}
+	public String getHeading() {
+		return heading;
+	}
+	public void setHeading(String heading) {
+		this.heading = heading;
+	}
+	public String getBeginDate() {
+		return beginDate;
+	}
+	public void setBeginDate(String beginDate) {
+		this.beginDate = beginDate;
+	}
+	public String getEndDate() {
+		return endDate;
+	}
+	public void setEndDate(String endDate) {
+		this.endDate = endDate;
+	}
+	public String getDateExpression() {
+		return dateExpression;
+	}
+	public void setDateExpression(String dateExpression) {
+		this.dateExpression = dateExpression;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	
+	
+	
+
+}
